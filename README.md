@@ -6,6 +6,9 @@ JS30是一個Javascript的線上教學課程，利用三十天的時間，每天
 
 [Official Website](https://javascript30.com/)
 
-| No   | 主題                        | 詳解                                 | Demo        
-| ---- | --------------------------- | ----------------------------------- | ---------------------------------------- |
-| 01   | JavaScript Drum Kit         | [詳解](https://www.google.com)       | [Demo](https://www.google.com)         |
+## 以下是Demo目錄
+
+| No  | 主題                        | 詳解                                 | Demo        
+| :-: | --------------------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------- |
+| 01  | JavaScript Drum Kit         | [詳解](https://www.google.com)       | [Demo](https://destiny5420.github.io/JS-30/01%20-%20Javascript%20Drum%20Kit/index.html)         |
+| 02  | JS and CSS Clock            | [詳解](https://www.google.com)       | [Demo](https://destiny5420.github.io/JS-30/01%20-%20Javascript%20Drum%20Kit/index.html)         |
