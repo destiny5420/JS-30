@@ -1,5 +1,7 @@
 # Drum kit
 
+![Banner](https://github.com/destiny5420/JS-30/blob/develop/01%20-%20Javascript%20Drum%20Kit/banner.png)
+
 #### 摘要
 
 這個專案的練習，主要是針對「按下鍵盤按鈕後後，觸發對應音效」為主要功能，並且增加一個效果來做為使用者的 Feedback。
