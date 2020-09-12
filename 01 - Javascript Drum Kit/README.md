@@ -44,3 +44,5 @@ Although NodeList is not an Array, it is possible to iterate over it with forEac
 
 However, some older browsers have not implemented NodeList.forEach() nor Array.from().
 ```
+
+參閱: [MDN-ArrayForm](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
