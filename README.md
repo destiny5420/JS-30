@@ -15,3 +15,4 @@ JS30 是一個 Javascript 的線上教學課程，利用三十天的時間，每
 | 02  | JS and CSS Clock    | [詳解](https://github.com/destiny5420/JS-30/blob/develop/02%20-%20JS%20and%20CSS%20Clock/README.md)   | [Demo](https://destiny5420.github.io/JS-30/02%20-%20JS%20and%20CSS%20Clock/index.html)  |
 | 03  | CSS Variables       | [詳解](https://github.com/destiny5420/JS-30/blob/develop/03%20-%20CSS%20Variables/README.md)          | [Demo](https://destiny5420.github.io/JS-30/03%20-%20CSS%20Variables/index.html)         |
 | 04  | Array Cardio Day 1  | [詳解](https://github.com/destiny5420/JS-30/blob/develop/04%20-%20Array%20Cardio%20Day%201/README.md) | N/A                                                                                     |
+| 05  | Flex Panel Gallery  | [詳解](https://github.com/destiny5420/JS-30/blob/develop/05%20-%20Flex%20Panel%20Gallery/README.md)   | [Demo](https://destiny5420.github.io/JS-30/05%20-%20Flex%20Panel%20Gallery/index.html)  |
