@@ -14,7 +14,7 @@ Array.filter() 會傳入一個判斷 callback，會返判斷後為 true 的新�
 const fifteen = inventors.filter(
   inventor => inventor.year >= 1500 && inventor.year < 1600
 );
-console.table(fifteen); // 以table方式檢視
+console.table(fifteen);
 ```
 
 參閱: [MDN-Filter](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
