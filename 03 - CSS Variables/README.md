@@ -1,6 +1,6 @@
 # CSS Variables
 
-![Banner](https://github.com/destiny5420/JS-30/tree/develop/03%20-%20CSS%20Variables/banner.png)
+![Banner](https://github.com/destiny5420/JS-30/blob/develop/03%20-%20CSS%20Variables/banner.png)
 
 這個專案主要是練習使用 js 賦予值給 css 的變數，透過 html 裡的元件可以控制 css 的素質，達到動態調整 css 參數的效果
 
