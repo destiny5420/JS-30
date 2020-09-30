@@ -1,13 +1,12 @@
 const panels = document.querySelectorAll('.panel');
 
 function toggleOpen() {
-  console.log('Hello');
   this.classList.toggle('open');
 }
 
 function toggleActive(e) {
-  if (e.propertyName.includes('flex')) {
-    console.warn(this);
+  console.log(e.propertyName);
+  if (e.propertyName.includes('font-size')) {
     this.classList.toggle('open-active');
   }
 }
