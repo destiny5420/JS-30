@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Type Ahead 👀</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="search-form">
+      <input type="text" class="search" placeholder="City or State" />
+      <ul class="suggestions">
+        <li>Filter for a city</li>
+        <li>or a state</li>
+      </ul>
+    </form>
+    <script>
+      const endpoint =
+        'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+
+      const cities = [];
+      const searchInput = document.querySelector('.search');
+      const suggestions = document.querySelector('.suggestions');
+
+      fetch(endpoint)
+        .then((blob) => blob.json())
+        .then((data) => cities.push(...data));
+
+      console.log(cities);
+
+      const target = 'hello World';
+      const pattern = /world/;
+      const regExp = new RegExp(pattern, 'i');
+      console.log('RegExp: ', regExp.test(target));
+
+      // *** test ***
+      function callName() {
+        console.warn(this.name);
+      }
+      var name = '帥氣外公';
+
+      var auntie = {
+        name: '漂亮阿姨',
+        callName: callName,
+        watch: {
+          name: 'Magic Watch',
+          callName: callName,
+        },
+      };
+
+      var student = {
+        name: '帥氣外公',
+      };
+
+      var callName1 = auntie;
+      var callName2 = auntie.watch;
+      var callName3 = callName1.callName();
+      var callName4 = callName2.callName;
+
+      student.command = auntie.callName;
+
+      console.log('callName3: ', callName3);
+      console.log('callName4: ', callName4);
+      callName4();
+      // *** test ***
+
+      function findMatches(wordToMatch, cities) {
+        return cities.filter((place) => {
+          const regex = new RegExp(wordToMatch, 'gi');
+          return place.city.match(regex) || place.state.match(regex);
+        });
+      }
+
+      function displayMatches() {
+        console.log('value: ', this.value);
+        const matchArray = findMatches(this.value, cities);
+      }
+
+      searchInput.addEventListener('change', displayMatches);
+      searchInput.addEventListener('keyup', displayMatches);
+    </script>
+  </body>
+</html>
