@@ -17,7 +17,7 @@ const fifteen = inventors.filter(
 console.table(fifteen);
 ```
 
-參閱: [MDN-Filter](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+參閱: [Array.prototype.filter](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 #### Map
 
@@ -32,7 +32,7 @@ console.table(fullName);
 
 這裡是將所有元素的 first 與 last 做一個組合後，返回其結果
 
-參閱: [MDN-Map](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+參閱: [Array.prototype.map](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 #### Sort
 
@@ -47,7 +47,7 @@ console.table(ordered);
 
 此範例是將 year 從小排到大的排序
 
-參閱: [MDN-Sort](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+參閱: [Array.prototype.sort](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 #### Reduce
 
@@ -84,4 +84,4 @@ console.log(transportation);
 
 此範例是要將出現過的項目做數量計算
 
-參閱: [MDN-Reduce](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+參閱: [Array.prototype.reduce](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
