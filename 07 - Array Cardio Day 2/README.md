@@ -1,6 +1,6 @@
 # Array Cardio Day 2
 
-![Banner](https://github.com/destiny5420/JS-30/blob/develop/06%20-%20Type%20Ahead/banner.png)
+![Banner](https://github.com/destiny5420/JS-30/tree/develop/07%20-%20Array%20Cardio%20Day%202)
 
 這個專案主要是練習 `Array` 的應用，包括`some`、`every`、`find`、`findIndex`、`slice`
 
