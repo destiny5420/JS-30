@@ -18,7 +18,7 @@
 
 因我們要獲取 json 檔案，所以在此使用的是`json()`，然後會將轉換的檔案，給在第二個 then 的 argument 中，也就是`.then(data => ...)`的 `data`，然後使用 ES6 的解構`...`將所有獲得的值，依序丟進`cities`裡面
 
-> 詳細可參考 : [ES6 陣列方法](https://wcc723.github.io/javascript/2017/12/26/javascript-array/)
+> 詳細可參考 : [Spread syntax](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 
 #### Step2. RegExp 正規表達式
 
