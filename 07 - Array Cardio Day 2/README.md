@@ -6,31 +6,31 @@
 
 ## 關鍵
 
-#### Step1. Array.some()
+#### Step1. Some
 
 我們會給`some()`方法一個函式，會測試陣列中是否`至少有一個`元素，通過此函式的測試，通過回傳`true`，否則`false`
 
 > 詳細可參考 : [Array.prototype.some()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
-#### Step2. Array.every()
+#### Step2. Every
 
 我們會給`every()`方法一個函式，會測試陣列中是否`每個`元素，通過此函式的測試，皆通過回傳`true`，否則`false`
 
 > 詳細可參考 : [Array.prototype.every()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
-#### Step3. Array.find()
+#### Step3. Find
 
 我們會給`find()`方法一個函式，遍歷每個元素，回傳`第一個匹配`的元素，如果沒有則返回`undefined`
 
 > 詳細可參考 : [Array.prototype.find()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 
-#### Step4. Array.findIndex()
+#### Step4. FindIndex
 
 我們會給`findIndex()`方法一個函式，遍歷每個元素，回傳`第一個匹配`元素的 index，如果沒有則返回`-1`
 
 > 詳細可參考 : [Array.prototype.findIndex()](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
 
-#### Step5. Array.slice()
+#### Step5. Slice
 
 `slice()`會回傳一個新陣列物件，原陣列的`begin`至`end`(不含`end`)部分進行淺拷貝，不會修改原陣列
 
